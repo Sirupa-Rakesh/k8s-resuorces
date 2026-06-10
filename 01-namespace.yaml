@@ -1,18 +1,10 @@
-# apiVersion: v1
-# kind: Namespace
-# metadata:
-#   name: roboshop
-#   labels:
-#     project: roboshop
-#     environment: dev
-#     purpose: poc
-
-
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: rakesh
+  name: roboshop
   labels:
-    project: k8s
-    envritonmrnt: dev
-    purporse: poc
+    project: roboshop
+    environment: dev
+    purpose: poc
+
+
